@@ -1,0 +1,174 @@
+[{
+  "_id": {
+    "$oid": "67dd31bfae6f7f0f67b981c8"
+  },
+  "id": 1,
+  "title": "Art Book",
+  "author": "Maha dev sing",
+  "isbn": {
+    "$numberLong": "7838838838"
+  },
+  "count": 3,
+  "image": "artbook.jpg",
+  "categories": "Art",
+  "__v": 0,
+  "pages": 123
+},
+{
+  "_id": {
+    "$oid": "67dd5f6ca75002b1b09b6075"
+  },
+  "id": 2,
+  "title": "Ramayan",
+  "author": "Valmiki Jaykumar",
+  "isbn": 1234567890,
+  "image": "ramayan.jpeg",
+  "count": 2,
+  "categories": "Spritual",
+  "__v": 0,
+  "pages": 245
+},
+{
+  "_id": {
+    "$oid": "67dd62aba75002b1b09b6079"
+  },
+  "id": 4,
+  "title": "Glimps of India",
+  "author": "Vikas",
+  "isbn": {
+    "$numberLong": "23425535222"
+  },
+  "image": "glimpse.jpg",
+  "count": 2,
+  "categories": "Culture",
+  "__v": 0,
+  "pages": 543
+},
+{
+  "_id": {
+    "$oid": "67dd6490a75002b1b09b607b"
+  },
+  "id": 5,
+  "title": "Indian Culture",
+  "author": "Jayakumar",
+  "isbn": {
+    "$numberLong": "89303453454"
+  },
+  "image": "indianculture.jpg",
+  "count": 5,
+  "categories": "Culture",
+  "__v": 0,
+  "pages": 532
+},
+{
+  "_id": {
+    "$oid": "67dfa8e6bddeb5fba6366212"
+  },
+  "id": 6,
+  "title": "Life comes from life",
+  "pages": 112,
+  "author": "Maheshwar Bhagavat",
+  "isbn": {
+    "$numberLong": "882734343343434"
+  },
+  "image": "lcfl.jpg",
+  "count": 6,
+  "categories": "spritual",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfa9c1bddeb5fba6366214"
+  },
+  "id": 7,
+  "title": "Motivation speaks",
+  "pages": 32,
+  "author": "Gour Mohan",
+  "isbn": {
+    "$numberLong": "929829389343434"
+  },
+  "image": "motivationa.jpg",
+  "count": 4,
+  "categories": "General",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfaa07bddeb5fba6366216"
+  },
+  "id": 8,
+  "title": "Ramayanam",
+  "pages": 12,
+  "author": "Purna Pragna",
+  "isbn": {
+    "$numberLong": "727349239468383"
+  },
+  "image": "ramayan.jpg",
+  "count": 10,
+  "categories": "Spiritual",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfaa7dbddeb5fba6366218"
+  },
+  "id": 9,
+  "title": "Learn English fluently",
+  "pages": 240,
+  "author": "Sur Das",
+  "isbn": {
+    "$numberLong": "298374927349723"
+  },
+  "image": "learnenglish.jpg",
+  "count": 5,
+  "categories": "Art",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfaad3bddeb5fba636621a"
+  },
+  "id": 10,
+  "title": "Comics New",
+  "pages": 89,
+  "author": "Kapil dev Das",
+  "isbn": {
+    "$numberLong": "197234232244223"
+  },
+  "image": "comic.jpg",
+  "count": 6,
+  "categories": "General",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfab30bddeb5fba636621c"
+  },
+  "id": 11,
+  "title": "Electronics",
+  "pages": 23,
+  "author": "Ravikumar C. K",
+  "isbn": {
+    "$numberLong": "802308203842034"
+  },
+  "image": "electronics.jpg",
+  "count": 2,
+  "categories": "Science",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dfaba8bddeb5fba636621e"
+  },
+  "id": 12,
+  "title": "DSA",
+  "pages": 893,
+  "author": "Nehru",
+  "isbn": {
+    "$numberLong": "823348234234384"
+  },
+  "image": "dsa",
+  "count": 54,
+  "categories": "Technology",
+  "__v": 0
+}]

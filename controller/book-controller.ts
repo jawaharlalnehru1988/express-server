@@ -68,7 +68,7 @@ export const bookController = {
         if (!isValidPassword) {
           res.status(401).json({ message: "Invalid username or password" });
         } else {
-          const token = jwt.sign({ userIdy: user._id }, JWT_SECRET, {
+          const token = jwt.sign({ userId: user._id,  }, JWT_SECRET, {
             expiresIn: "1h",
           });
           res.json({
