@@ -1,4 +1,3 @@
-// import { bcrypt } from 'bcryptjs';
 import {Request, Response} from 'express';
 import { UsersCollection } from '../models/newCollection';
 import bcrypt from 'bcryptjs';
@@ -68,10 +67,11 @@ export const bookController = {
         if (!isValidPassword) {
           res.status(401).json({ message: "Invalid username or password" });
         } else {
-          const token = jwt.sign({ userId: user._id,  }, JWT_SECRET, {
-            expiresIn: "1h",
-          });
-          res.json({
+          const token = jwt.sign(
+            { userId: user._id, userName: user.username, userEmail: user.email, userRole: user.role }, 
+            JWT_SECRET, {expiresIn: "1h"}
+            );
+        res.json({
             token,
             userId: user._id,
             username: user.username,
