@@ -1,15 +1,15 @@
 import express from 'express';
 import { bookController } from '../controller/book-controller';
+import { authMiddleware } from './authMiddleware';
 const userrouter = express.Router();
+userrouter.use(authMiddleware);
 
 
 userrouter.route("/fetch-user").get(bookController.getUser);
 
 userrouter.route("/new-user").post(bookController.addNewUser);
 
-userrouter.route("/register").post(bookController.registerNewUser);
 
-userrouter.route("/login").post(bookController.loginUser);
 
 userrouter.route("/delete/:id").delete(bookController.deleteUser);
 
